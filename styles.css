@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.subtitle a {
+    color: #4B56D2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centra verticalmente los botones */
+    margin-bottom: 20px;
+}
+
+.google-btn {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    width: 75%; /* Ancho mayor para el botón de Google */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.google-btn img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.fb-btn {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    border-radius: 15%; /* Hace que el botón de Facebook sea circular */
+    width: 50px; /* Ancho y alto iguales para hacerlo circular */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.social-login button:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #000c8e;
+}
+
+.google-btn .btn-text {
+    font-size: 11px; 
+    font-weight: bold;
+}
+
+.fb-btn img {
+    width: 18px; 
+}
+
+.or {
+    display: flex;
+    align-items: center; /* Alinea el texto verticalmente al centro */
+    text-align: center;
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+.or::before,
+.or::after {
+    content: ''; /* Contenido vacío para las líneas */
+    flex-grow: 1; /* Hace que las líneas crezcan ocupando el espacio disponible */
+    height: 1px; /* Altura de la línea */
+    background-color: #e6e6e6; /* Color de las líneas */
+}
+
+.or span {
+    white-space: nowrap; /* Evita que el texto "or" se divida en dos líneas si no hay espacio */
+    padding: 0 10px; /* Espacio alrededor del texto "or" */
+}
+
+.or {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.email-login label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #888888;
+}
+
+.email-login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 12px;
+    
+}
+
+
+
+.cta-btn {
+    background-color: #4B56D2;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #3a45b0;
+}
+
+.forget-pass {
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4B56D2;
+    text-decoration: none;
+}
+
+
