@@ -50,7 +50,7 @@ form {
 .social-login {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Centra verticalmente los botones */
+    align-items: center; 
     margin-bottom: 20px;
 }
 
@@ -58,7 +58,7 @@ form {
     background-color: rgb(255, 255, 255);
     border: 1px solid #ddd;
     border-radius: 10px; 
-    width: 75%; /* Ancho mayor para el botón de Google */
+    width: 75%; 
     height: 40px;
     display: flex;
     justify-content: center;
@@ -76,8 +76,8 @@ form {
 .fb-btn {
     background-color: rgb(255, 255, 255);
     border: 1px solid #ddd;
-    border-radius: 15%; /* Hace que el botón de Facebook sea circular */
-    width: 50px; /* Ancho y alto iguales para hacerlo circular */
+    border-radius: 15%; 
+    width: 50px; 
     height: 40px;
     display: flex;
     justify-content: center;
@@ -103,22 +103,22 @@ form {
 
 .or {
     display: flex;
-    align-items: center; /* Alinea el texto verticalmente al centro */
+    align-items: center; 
     text-align: center;
-    width: 100%; /* Ocupa todo el ancho disponible */
+    width: 100%;
 }
 
 .or::before,
 .or::after {
-    content: ''; /* Contenido vacío para las líneas */
-    flex-grow: 1; /* Hace que las líneas crezcan ocupando el espacio disponible */
-    height: 1px; /* Altura de la línea */
-    background-color: #e6e6e6; /* Color de las líneas */
+    content: ''; 
+    flex-grow: 1; 
+    height: 1px; 
+    background-color: #e6e6e6; 
 }
 
 .or span {
-    white-space: nowrap; /* Evita que el texto "or" se divida en dos líneas si no hay espacio */
-    padding: 0 10px; /* Espacio alrededor del texto "or" */
+    white-space: nowrap; 
+    padding: 0 10px; 
 }
 
 .or {
